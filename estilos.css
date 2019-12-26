@@ -100,13 +100,19 @@ input[type="submit"]{
 input[type="submit"]:hover{
 	background-color: blue;
 }
-@media (max-width:576px) { 
+@media (max-width:576px) {
+	body{
+		width: 100%
+	} 
 	form{width: 100%;
 		margin: 0;
 	} 
 	
 	}
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
+	body{
+		width: 100%
+	}  
 	form{
 		width: 80%;
 		margin: 10%;

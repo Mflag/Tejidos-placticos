@@ -1,0 +1,90 @@
+/*Responvive desing*/
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+	form{
+		width: 100%;
+		background-color: red;
+		margin: none;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+main{
+	background:#D1C9B8;
+}
+header,nav ul{
+	display: flex;
+	flex-direction: row;	
+	background-color: grey;	
+
+}
+h1,nav{
+	margin: auto;
+	padding: auto;
+}
+nav ul li{
+	padding: 10px;
+	list-style: none;
+	color: black; 
+	text-align: center;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.5rem;
+	}
+nav ul li a:hover{
+	background-color: black;
+	color: white;
+}
+img{
+	width: 400px;
+	height: 100px
+}
+footer{
+	background-color: black;
+    padding:10px;
+    margin-top: 10px;
+    color: white;
+     }	
+/*Formulario de contacto*/
+
+form{
+	background-color: lightblue;
+	width: 30%;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 10px;
+	border:solid black 1px;
+
+	}
+form ul{
+	list-style: none;
+	margin: auto;
+}
+form ul li{
+	padding: 10px;
+
+}
+input,textarea{
+	background-color: lightblue;
+	border-radius: 10px;
+	border:solid lightgrey 3px;
+	font-size: 1rem;
+	width: 80%;
+}
+input[type="submit"]{
+	margin:auto;
+	transition: 2s;
+	
+}
+input[type="submit"]:hover{
+	background-color: blue;
+}

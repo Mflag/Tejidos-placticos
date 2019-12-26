@@ -16,13 +16,18 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
+
 main{
 	background:#D1C9B8;
+}
+header{
+	border:solid black 1px;
+	border-radius: 5px;
 }
 header,nav ul{
 	display: flex;
 	flex-direction: row;	
-	background-color: grey;	
+	background-color: #D1C9B8;	
 
 }
 h1,nav{
@@ -36,12 +41,12 @@ nav ul li{
 	text-align: center;
 }
 nav ul li a{
-	color: white;
+	color: black;
 	text-decoration: none;
 	font-size: 1.5rem;
 	}
 nav ul li a:hover{
-	background-color: black;
+	background-color: #C2BD86;
 	color: white;
 }
 img{
@@ -54,6 +59,13 @@ footer{
     margin-top: 10px;
     color: white;
      }	
+.img{
+	margin: 10px;
+	width:100px;
+}  
+.center{
+text-align: center;
+}   
 /*Formulario de contacto*/
 
 form{
@@ -79,9 +91,12 @@ input,textarea{
 	border:solid lightgrey 3px;
 	font-size: 1rem;
 	width: 80%;
+
 }
 input[type="submit"]{
-	margin:auto;
+	width: 50%;
+	margin-left:20%;
+
 	transition: 2s;
 	
 }

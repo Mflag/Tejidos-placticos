@@ -7,6 +7,7 @@ header{
 	border-radius: 5px;
 
 }
+header img { margin-top: 10px;margin-bottom: 10px;}
 header,nav ul{
 	display: flex;
 	flex-direction: row;	

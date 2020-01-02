@@ -48,7 +48,10 @@ nav ul li a:hover{
 	color: white;
 }
 
-img{width:10%;}
+img{
+width:10%;
+height:10%;
+}
 footer{
 	background-color: black;
     padding:10px;
